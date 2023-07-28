@@ -8,7 +8,7 @@ const Content = props => (
         <Routes>
             <Route path="/about" exact element={<About />}/>
             {/* <Route path="/param" exact element={<Param />}/> */}
-            <Route path="/home" exact element={<Home />}/>
+            <Route path="/" exact element={<Home />}/>
             {/* <Route path="/*" exact element={<NotFound />}/> */}
         </Routes>
     </main>
